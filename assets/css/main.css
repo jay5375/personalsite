@@ -3954,6 +3954,7 @@ input, select, textarea {
 .skills {
 	display: flex;
 	align-items: center;
+	margin-bottom: 5%;
 }
 
 .skills img {
