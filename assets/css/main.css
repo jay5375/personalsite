@@ -3967,10 +3967,18 @@ input, select, textarea {
 	color: black;
 } 
 
-/* #two {
-	border-bottom: 1px solid white;
+#video {
+	padding: 0;
 }
 
-#two h2 {
-	color: black;
-} */
+video {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#video::before {
+	background-color: transparent;
+	opacity: 1;
+}
