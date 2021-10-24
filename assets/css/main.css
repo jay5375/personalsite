@@ -3972,10 +3972,7 @@ input, select, textarea {
 }
 
 video {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	position: absolute;
+	object-fit: fill;
 }
 
 #video::before {
